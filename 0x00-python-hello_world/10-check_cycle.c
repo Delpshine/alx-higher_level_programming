@@ -1,4 +1,4 @@
-#include <list.h>
+#include "list.h"
 
 /**
  * check_cycle- checks whether a linked list has a cycle
@@ -6,13 +6,14 @@
  *
  * Return: 1 if the list has a cycle, 0 if it does not.
  */
-int check_cycle(listnt_t *list)
+int check_cycle(listint_t *list)
 {
 	listint_t *slow = list;
-	listint_t *fast = list
+	listint_t *fast = list;
 
-		if (!list)
+		if(!list)
 			return (0);
+	
 	while (slow && fast->next)
 	{
 		slow = slow->next;
