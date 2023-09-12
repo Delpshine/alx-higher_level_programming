@@ -55,3 +55,7 @@ Write a function that finds all multiples of 2 in a list.
 
 Prototype: def divisible_by_2(my_list=[])
 
+11. Write a function that deletes the item at a specific position in a list.
+
+Prototype: def delete_at(my_list=[], idx=0):
+
