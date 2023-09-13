@@ -15,7 +15,6 @@ Prototype: def element_at(my_list, idx)
 2. Replace element
 mandatory
 Write a function that replaces an element of a list at a specific position (like in C).
-
 Prototype: def replace_in_list(my_list, idx, element)
 
 3. Print a list of integers... in reverse!
@@ -49,13 +48,16 @@ Prototype: def multiple_returns(sentence)
 mandatory
 Write a function that finds the biggest integer of a list.
 Prototype: def max_integer(my_list=[])
-10. Only by 2
-mandatory
-Write a function that finds all multiples of 2 in a list.
-
+10. Write a function that finds all multiples of 2 in a list.
 Prototype: def divisible_by_2(my_list=[])
 
 11. Write a function that deletes the item at a specific position in a list.
+Prototype: def delete_at(my_list=[], idx=0)
 
-Prototype: def delete_at(my_list=[], idx=0):
+12. Complete the source code in order to switch value of a and b
 
+13. Write a function in C that checks if a singly linked list is a palindrome.
+Prototype: int is_palindrome(listint_t **head)
+
+14. Create a C function that prints some basic info about Python lists.
+Prototype: void print_python_list_info(PyObject *p
